@@ -1,0 +1,8 @@
+{
+  "name": "y",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/dinhodoes/web-client.git",
+  "author": "Sean McDonnell <sean@seanfmcdonnell.com>",
+  "license": "MIT"
+}
