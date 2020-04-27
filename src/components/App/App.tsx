@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Sidebar from '../Sidebar/Sidebar';
+
 export interface IProps {};
 
 const App = (props: IProps) => {
-  return <h1>Hello World!</h1>;
+  return <Sidebar />;
 };
 
 export default App;
