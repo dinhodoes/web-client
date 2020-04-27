@@ -2,9 +2,7 @@ import React from 'react';
 
 import Sidebar from '../Sidebar/Sidebar';
 
-export interface IProps {};
-
-const App = (props: IProps) => {
+const App = () => {
   return <Sidebar />;
 };
 

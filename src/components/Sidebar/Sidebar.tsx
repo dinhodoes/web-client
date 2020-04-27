@@ -16,7 +16,6 @@ export default function Sidebar() {
   const classes = useStyles();
   const [open, setOpen] = React.useState('');
 
-
   const toggleSlider = (slider: string) => () => {
     if (open) {
       setOpen('');
@@ -41,9 +40,7 @@ export default function Sidebar() {
         }}
       >
         <List>
-          {[
-            { Icon: ProfileIcon, text: 'Profile' }
-          ].map(({ Icon, text }) => (
+          {[{ Icon: ProfileIcon, text: 'Profile' }].map(({ Icon, text }) => (
             <ListItem button key={text}>
               <ListItemIcon onClick={toggleSlider(text)}>
                 <Icon />
